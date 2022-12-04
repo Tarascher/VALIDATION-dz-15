@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="mt-3">
+      <header>
+        <div class="p-3 bg-white">
+          <ul id="list-grid">
+            <li class="inline-block pe-3 border-primary fs-1">
+              <a class="text-decoration-none text-secondary" href="">
+                <i class="fa-solid fa-square-xmark pe-3"> </i>Logo</a
+              >
+            </li>
+
+            <li class="inline-block pe-3 ps-3 border-end border-primary">
+              <a href="">Home</a>
+            </li>
+
+            <li class="inline-block pe-3 ps-3 border-end border-primary">
+              <a href="">About</a>
+            </li>
+
+            <li class="inline-block pe-3 ps-3 border-end border-primary">
+              <a href="">Pricing</a>
+            </li>
+
+            <li class="inline-block ps-3"><a href="">Blog</a></li>
+          </ul>
+        </div>
+      </header>
+
+      <main>
+        <div class="container border mt-5" style="width: 25rem">
+          <div class="form-group mt-4 p-3">
+            <label class="" for="user_tel">Ваше телефон: </label>
+
+            <input
+              type="text"
+              class="form-control mb-3 mt-3 rounded-0"
+              id="user_tel"
+              placeholder="+38067"
+              required
+              pattern="^([+][3][8][(][0][6][7][)][0-9]{3}[-][0-9]{2}[-][0-9]{2}|[+][3][8][0][6][7][0-9]{7}|[+][3][8][(][0][6][7][)][0-9]{7})$"
+            />
+            <small class="form-text text-muted mb-4">
+              * Oбязательно к заполнению.
+            </small>
+
+            <small class="form-text text-muted valid-label mb-4">
+              Поле заполнено верно.
+            </small>
+
+            <button
+              type="submit"
+              class="btn btn-secondary rounded-0 text-white mb-3 mt-3"
+              style="width: 100%"
+            >
+              Перезвонить мне ???
+            </button>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+.inline-block {
+  list-style: none;
+}
+input:invalid + small + small {
+  display: none;
+}
+
+input:valid + small {
+  display: none;
+}
+#list-grid {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
