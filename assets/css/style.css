@@ -8,7 +8,7 @@ input:invalid + small + small {
 input:valid + small {
   display: none;
 }
-#list-grid {
+#list-flex {
   display: flex;
   flex-direction: row;
   align-items: center;
