@@ -8,8 +8,13 @@ input:invalid + small + small {
 input:valid + small {
   display: none;
 }
-#list-flex {
+/*#list-flex {
   display: flex;
   flex-direction: row;
+  align-items: center;
+}*/
+#list-grid {
+  display: grid;
+  grid-template-columns: 200px repeat(4, 80px);
   align-items: center;
 }
